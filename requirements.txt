@@ -1,0 +1,12 @@
+# Встановлення: conda activate clustering_env && pip install -r requirements.txt
+# ВАЖЛИВО: потрібен Python 3.11 (TensorFlow не підтримує Python 3.13/3.14)
+# Створити середовище: conda create -n clustering_env python=3.11 -y
+
+tensorflow>=2.20.0
+keras>=3.14.0
+numpy>=2.0.0
+scikit-learn>=1.7.0
+matplotlib>=3.10.0
+pandas>=2.3.0
+opencv-contrib-python==4.13.0.92
+seaborn==0.13.2
